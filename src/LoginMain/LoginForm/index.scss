@@ -1,0 +1,86 @@
+Form{
+    .formback{
+        border-radius: 5px;
+        height: 400px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        .obsi{
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+           
+           }
+           .inp{
+               margin-top: 10px;
+               border: 1px solid #dddfe2;
+               border-radius: 5px;
+               width: 350px;
+               height: 45px;
+              
+           }
+           .btn{
+               background-color: #1877f2;
+               border-radius: 6px;
+               border: none;
+               margin-top: 15px;
+               height: 45px;
+               width: 356px;
+               color: white;
+               font-size: 20px;
+               font-weight: bold;
+               cursor: pointer;
+           }
+           a{
+            margin-top: 10px;
+            text-decoration: none;
+            margin-bottom: 15px;
+            color: #1877f2;
+            font-size: 14px;
+            cursor: pointer;
+            letter-spacing: -1px;
+            &:hover{
+                text-decoration: underline;
+            }
+           }
+           .errorlar{
+            width: 350px;
+            max-width: 350px;
+            font-size: 15px;
+            color: red;
+           }
+           .hr{
+            margin-top: 10px;
+            border-bottom: 1px solid #dadde1;
+            width: 356px;
+            margin-bottom: 10px;
+           }
+           .create-btn{
+            margin-top: 10px;
+            .butte{
+                #createbtn{
+                    cursor: pointer;
+                    color: #fff;
+                    font-size: 16px;
+                    text-decoration: none;
+                    padding: 15px 20px;
+                    border-radius: 5px;
+                    background: #42b72a;
+                    font-weight: 600;
+                    display: inline-block;
+                    margin-bottom: 5px;
+                    border: none;
+                    transition: all .4s;
+            
+                    &:hover {
+                        transition: all .4s;
+                        background: #36a420;
+                    }
+                }
+            }
+           }
+    }
+    
+}
